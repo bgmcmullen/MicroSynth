@@ -1,0 +1,9 @@
+outlets = 1;
+
+function loadFiles()
+{
+	for (i = 1; i < 18; i++)
+	{
+		outlet(0, "preload " + i + " Woodblock" + i + ".wav");
+		}
+	}
